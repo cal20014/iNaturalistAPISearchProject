@@ -1,9 +1,19 @@
 # iNaturalistAPISearchProject
 
-iNaturalist
-Connect to the iNaturalist API. Information found here: https://api.inaturalist.org/v1/docs/</a > Links to an external site.
-Create a form that allow users to search for places in the API.
-Request the identifications based on their selection of a place.
-Display the name and image of each identification returned in a nice format.
-STRETCH: Many of the identifications will be duplicates. De-duplicate your results before displaying them.
-STRETCH: Add the ability to also filter by observation date.
+# iNaturalist
+
+Connect to the **iNaturalist API**. Information can be found here: [iNaturalist API Documentation](https://api.inaturalist.org/v1/docs/).
+
+## Features
+
+- **Search for Places**: Create a form that allows users to search for places using the API.
+
+- **Fetch Identifications**: Upon selecting a place, request the identifications associated with that location.
+
+- **Display Results**: Show the name and image of each identification returned in a visually appealing format.
+
+## Stretch Goals
+
+1. **De-duplication**: Many of the identifications might be duplicates. Implement logic to de-duplicate the results before they are displayed.
+
+2. **Date Filtering**: Add the capability for users to filter identifications by observation date.
